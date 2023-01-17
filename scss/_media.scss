@@ -1,0 +1,40 @@
+@media (max-width:700px){  
+    .showcase{
+      display: none;     
+    }
+
+
+.about{
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        .about-info{
+            border-left: none;
+            border-top: $secondary-color solid 2px;
+        }
+    }
+}
+
+.skills-container{
+    margin-top: -40px;
+}
+
+.partners{
+    padding-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    .partner{
+        padding: 1rem 0;
+    }
+}
+.testimonials{
+.boxes{
+    display: flex;
+   flex-direction: column;
+  margin-top: 10px;
+}
+.box{
+    display: flex;
+}
+}
+}

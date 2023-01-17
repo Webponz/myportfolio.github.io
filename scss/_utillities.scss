@@ -1,0 +1,57 @@
+.btn{
+cursor: pointer;
+padding: .7rem 1rem;
+margin-top: 1rem;
+background: $secondary-color;
+border: none;
+border-radius: 3px;
+display: inline-block;
+transition: all .5s ease-in-out;
+&:hover{
+    color: white;
+}
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Lato', sans-serif;
+}
+p{
+    
+   
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+}
+
+a{
+    text-decoration: none;
+    color: $dark-color;
+   
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;   
+    color: $dark-color;
+}
+
+.container{
+    max-width: 1480px;
+    margin: auto;
+}
+
+.current{
+    border-bottom: solid 2px $secondary-color;
+ 
+}
+
+.bottom-line{
+    width: 37px;
+    height: 2px;
+    background: $main-color;
+    display: block;
+    margin: 0.5rem auto 1rem auto;
+    
+}
+
+
+
